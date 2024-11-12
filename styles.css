@@ -1,25 +1,26 @@
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
 .marker {
-    height: 25px;
-    width: 200px;
-    margin: 10px auto;
+  height: 25px;
+  width: 200px;
+  margin: 10px auto;
 }
 
-.one {
-    background-color: red;
+.red {
+  background: linear-gradient(180deg, rgb(255, 0, 0) 0%, rgb(0, 255, 0) 50%, rgb(0, 0, 255) 100%);
 }
 
-.two {
-    background-color: green;
+.green {
+  background-color: #007F00
 }
 
-.three {
-    background-color: blue;
+.blue {
+  background-color: hsl(240, 100%, 50%)
 }
 
 .container {
-    background-color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  padding: 10px 0;
 }
